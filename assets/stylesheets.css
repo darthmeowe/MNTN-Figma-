@@ -1,0 +1,265 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* 
+title: font-family: 'Playfair Display';
+all other: font-family: 'Hind Siliguri', sans-serif;
+*/
+
+
+/* header */
+
+body {
+    width: 100vw;
+    height: 900px;
+
+
+    background-color: #354147;
+}
+
+.container {
+    width: 1760px;
+    background-color: black;
+    border: 2px solid red;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo p{
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: white;
+}
+.header__nav, .header__account {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__nav li:not(:last-child) {
+    margin-right: 40px;
+}
+.header__account {
+    width: max-content;
+}
+.header__account img {
+    margin-right: 10px;
+}
+
+/* main */
+.main-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 1100px;
+}
+
+.before {
+    height: 173px;
+    width: max-content;
+
+    border: 2px solid red;
+}
+.before .li-first{
+    color: white;
+    font-size: 18px;
+    font-family: 'Hind Siliguri', sans-serif;
+    writing-mode: vertical-lr;
+}
+.before li:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.main__title {
+    width: 950px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px solid red;
+}
+
+.main__title .title{
+    font-family: 'Playfair Display';
+    font-size: 88px;
+    color: white;
+    text-transform: capitalize;
+    line-height: 100px;
+
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.main__title a {
+    text-decoration: none;
+}
+.uptitle {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    color: #FBD784;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 6px;
+}
+.uptitle::before {
+    content: " ";  
+    display: inline-block;              
+    width: 72px;                          
+    border-bottom: 1px solid #FBD784; 
+    vertical-align: middle;
+    margin-right: 32px;
+}
+.scroll {
+    display: flex;
+    align-items: center;
+}
+.scroll .btn {
+    font-size: 18px;
+    color: white;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: bold;
+    text-transform: lowercase;
+    margin-right: 16px;
+}
+
+
+
+/* margin-left:auto;
+    margin-right: 114px;
+    */
+.nmb-content {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 229px;
+    margin-left: 229px;
+    margin-bottom: 105px;
+
+    border: 2px solid red;
+}
+.nmb_content_column__discr {
+    width: 60%;
+
+    border: 2px solid rgb(251, 255, 0);
+}
+.nmb_content_column__img {
+    width: 45%;
+    margin-left: auto;
+    border: 4px solid rgb(0, 255, 21);
+}
+.nmb_content_column__img img {
+    border: 4px solid blue;
+    margin-left: auto;
+}
+.discr {
+    width: 632px;
+    height: 439px;
+
+    border: 2px solid red;
+}
+.discr p {
+    font-size: 18px;
+    color: white;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 27px;
+
+    border: 2px solid red;
+}
+
+.title {
+    font-family: 'Playfair Display';
+    font-size: 64px;
+    color: white;
+    line-height: 77px;
+
+    margin-top: 27px;
+    margin-bottom: 27px;
+    margin-right: 77px;
+
+    border: 2px solid red;
+}
+
+
+
+.main-footer {
+    width: 1462px;
+    height: 280px;
+
+    margin-bottom: 120px;
+
+    color: white;
+
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-footer_first {
+    width: 60%;
+
+    border: 2px solid green;
+}
+.main-footer_second {
+    width: 20%;
+
+    border: 2px solid rgb(13, 0, 128);
+}
+.main-footer_third {
+    width: 20%;
+
+    border: 2px solid rgb(128, 0, 0);
+}
