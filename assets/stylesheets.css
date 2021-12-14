@@ -239,7 +239,37 @@ header {
     margin-right: 77px;
 }
 
-
+.first {
+    background-image: url("../img/Equipment_01.png");
+    background-repeat: no-repeat;
+    position: relative;
+}
+.first .discr {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+.second {
+    background-image: url("../img/Equipment_02.png");
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: top right;
+}
+.second .discr {
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+.third {
+    background-image: url("../img/Equipment_03.png");
+    background-repeat: no-repeat;
+    position: relative;
+}
+.third .discr {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
 
 .main-footer {
     width: 1462px;
