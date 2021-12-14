@@ -208,6 +208,9 @@ header {
 .nmb_content_column__discr {
     width: 60%;
 }
+.nmb_content_column__discr a {
+    text-decoration: none;
+}
 .nmb_content_column__img {
     width: 40%;
     margin-left: auto;
